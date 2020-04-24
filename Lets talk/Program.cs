@@ -20,6 +20,6 @@ namespace Lets_talk
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
                 .UseStartup<Startup>();
-        //
+        // 
     }
 }
